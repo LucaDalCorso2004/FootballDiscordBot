@@ -7,3 +7,5 @@
 - discord.js (npm install discord.js)
 - node.js (https://nodejs.org/en/)
 - undici (npm install undici)
+
+### This is a first attempt for a school project
