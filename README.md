@@ -8,4 +8,4 @@
 - node.js (https://nodejs.org/en/)
 - undici (npm install undici)
 
-### This is a first attempt for a school project
+This is a first attempt at a discord bot for a school project
