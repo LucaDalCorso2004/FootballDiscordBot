@@ -1,4 +1,7 @@
-# put in your IDs in config.json
+## put your IDs in config.json:
+- bot token
+- application id
+- server id
 
 ## install following things before using:
 - discord.js (npm install discord.js)
