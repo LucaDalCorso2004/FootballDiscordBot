@@ -6,10 +6,10 @@ module.exports = {
     .setName("search-seasion")
     .setDescription("Find games of the Super League.")
     .addStringOption((option) =>
-      option.setName("start").setDescription("Season start").setRequired(true)
+      option.setName("start").setDescription("Season starting year").setRequired(true)
     )
     .addStringOption((option) =>
-      option.setName("end").setDescription("Season end").setRequired(true)
+      option.setName("end").setDescription("Season ending year (usually 1 year later)").setRequired(true)
     ),
   async execute(interaction) {
     const seasonStart = interaction.options.getString("start");
